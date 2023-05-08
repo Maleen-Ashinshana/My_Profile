@@ -28,3 +28,62 @@ div{
     height: 500px;*/
 /*height: fit-content;*/
 }
+.hello{
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    color: white;
+    font-family: "Comic Sans MS";
+    font-size: 33px;
+}
+.and{
+    position: absolute;
+    left: 470px;
+    top: 340px;
+    color: white;
+    font-family: "Comic Sans MS";
+    font-size: 33px;
+
+}
+.l1{
+    color: red;
+    position: absolute;
+    left:90px;
+    top: 200px;
+    font-size: 70px;
+    font-family: "Ave";
+}
+.l2{
+    font-size:  40px;
+    color: white;
+    font-family: "Arial Black";
+
+   /* display: inline;*/
+}
+#lable2{
+    position: absolute;
+    left: 240px;
+    bottom: 300px;
+}
+#lable3{
+    position: absolute;
+    left: 310px;
+    bottom: 250px;
+}
+#lable4{
+    position: absolute;
+    left: 350px;
+    bottom: 200px;
+}
+/*
+.li{
+    color: #fb0f04;
+    position: absolute;
+    left: 120px;
+    top: 200px;
+    font-family: "Ave";
+    font-size: larger;
+   !* size: 50px;*!
+   !* width: 100px;*!
+!*    height: 50px;*!
+}*/
