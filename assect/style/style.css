@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    /*border: 1px solid black;*/
+    height: 40px;
+}
+.nav{
+    background: black;
+    color: white;
+}
+.nav-link{
+    position: relative;
+    left: 700px;
+    /*margin: 0;
+    padding: 0;*/
+}
+.row_2{
+    /*border: 1px solid red;*/
+    height: 730px;
+    display: flex;
+}
+.main_img{
+    width: 1600px;
+   /* background-size: cover;*/
+   /* width: 1000px;
+    height: 500px;*/
+/*height: fit-content;*/
+}
