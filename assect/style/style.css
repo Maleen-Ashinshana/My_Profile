@@ -196,19 +196,7 @@ div{
     left: 450px;
     top: 200px;
 }
-/*
-.download{
-!*    color: red;*!
-    font-size: 30px;
-    width: 250px;
-    height: 50px;
-    position: absolute;
-    right: 600px;
-    bottom: 200px;
-    border-radius: 50px;
-    -webkit-text-stroke: 1px black;
-}
-*/
+
 .frame {
     width: 90%;
     margin: 40px auto;
@@ -237,7 +225,7 @@ button {
 }
 .btn-3 {
     background: #D21312 100%;
-    background: linear-gradient(0deg, /*rgba(0,172,238,1)*/#070A52 0%, /*rgba(2,126,251,1)*/#D21312 100%);
+    background: linear-gradient(0deg,#070A52 0%, #D21312 100%);
     width: 180px;
     height: 50px;
     line-height:45px;
@@ -261,7 +249,7 @@ button {
     content: "";
     right: 0;
     top: 0;
-    background:#D21312 100% /*rgba(2,126,251,1)*/;
+    background:#D21312 100%;
     transition: all 0.3s ease;
 }
 .btn-3:before {
@@ -283,7 +271,7 @@ button {
     width: 100%;
 }
 .btn-3 span:hover{
-    color: #D21312/*rgba(2,126,251,1)*/;
+    color: #D21312;
 }
 .btn-3 span:before,
 .btn-3 span:after {
