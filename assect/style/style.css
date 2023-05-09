@@ -4,7 +4,7 @@ body{
     display: flex;
 }
 div{
-    /*border: 1px solid black;*/
+  /*  border: 1px solid black;*/
     height: 40px;
 }
 .nav{
@@ -44,16 +44,12 @@ div{
     font-weight: bolder;
 }
 .row_2{
-    /*border: 1px solid red;*/
+/*    border: 1px solid red;*/
     height: 730px;
     display: flex;
 }
 .main_img{
     width: 1600px;
-   /* background-size: cover;*/
-   /* width: 1000px;
-    height: 500px;*/
-/*height: fit-content;*/
 }
 .hello{
     position: absolute;
@@ -126,11 +122,6 @@ div{
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
-    /*animation-name:my-ani;
-    animation-duration:2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function:linear;*/
 }
 @keyframes back {
     100%{
@@ -155,159 +146,38 @@ div{
     font-size: 50px;
     color: red;
 }
-
-/*.auto_type2:hover{
-    animation-play-state:paused;
-}
-@keyframes my-ani  {
-    from{
-        margin-left:0;
-    }
-    to{
-        margin-left: 200px;
-    }
-}*/
-/*.auto_type3{
-    color: black;
-    position: absolute;
-    left: 500px;
-    top: 400px;
-}*/
-/*@keyframes li {
-    0%{
-        left: 120%;
-    }
-    100%{
-        left: -20%;
-    }
-}*/
-/*.auto_type1::before{
-    content: attr(auto_type1);
-    position: absolute;
-    color: white;
-    width: 350px;
-    white-space: nowrap;
-    border-right: 4px solid red;
-    animation: animate 8s linear infinite;
-}
-#a1::before{
-    content: attr(auto_type1);
-    position: absolute;
-    color: white;
-    width: 350px;
-    white-space: nowrap;
-    border-right: 4px solid red;
-    animation: animate 8s linear infinite;
-}*/
-/*span{
-    color: #181660;
-}*/
-
-/*.auto_type1:before{
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 110%;
-    height: 100%;
-    ;
-   !* background: linear-gradient(90deg,transparent 0%,#000000 5%, #000000 100%);
-    animation: alternate 5.5s linear forwards;*!
-}*/
-/*@keyframes li {
-    0%{
-        left: 120%;
-    }
-    100%{
-        left: -20%;
-    }
-}*/
-/*.auto_type2{
-    color: red;
-    position: absolute;
-    left:90px;
-    top: 50px;
-    font-size: 70px;
-    font-family: "Ave";
-    animation-name:my-ani;
-    animation-duration:2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function:linear;
-}*/
-/*.name{
-    color: red;
-    position: absolute;
-    left:90px;
-    top: 50px;
-    font-size: 70px;
-    font-family: "Ave";
-    animation-name:my-ani;
-    animation-duration:2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function:linear;
-
-}*/
-
-
-/*.auto_type3{
+.row_3{
+/*    border: 1px solid blue;*/
+    height: 730px;
+    display: flex;
     position: relative;
-    right: 8px;
-    top: 140px;
-    color: white;
-    font-family: "Comic Sans MS";
-    font-size: 33px;
+    top: 0px;
+    background-color: #141414 ;
 }
-.auto_type4{
-    position: relative;
-    top: 200px;
-    right: 320px;
-    font-family: "Arial Black";
-}
-.auto_type5{
-    position: absolute;
-    top: 300px;
-    left: 440px;
-    font-family: "Arial Black";
-}
-.auto_type6{
-    position: absolute;
-    top: 350px;
-    left: 480px;
-    font-family: "Arial Black";
-}*/
-/*.ani{
-    border: 2px solid green;
-    width: 800px;
-    height: 150px;
-    position: absolute;
-    left: 50px;
-    top: 50px;
-}*/
-
-/*.auto_type4{
-    position: absolute;
-    top: 100px;
-}*/
-/*span{
+.a1{
     color: red;
+    font-size: 50px;
+    font-family:"Alegreya" ;
+    font-weight: bolder;
     position: absolute;
-    left:90px;
-    top: 100px;
-    font-size: 30px;
-    font-family: "Ave";
-    !*display: inline;*!
+    left: 650px;
+    top: 10px;
+}
+.a2{
+    color: white;
+    font-size: 50px;
+    font-family:"Alegreya" ;
+    font-weight: bolder;
+    position: absolute;
+    left: 800px;
+    top: 10px;
 
-}*/
-/*
-.li{
-    color: #fb0f04;
+}
+.about_img{
+    width: 400px;
+    height: 550px;
     position: absolute;
-    left: 120px;
-    top: 200px;
-    font-family: "Ave";
-    font-size: larger;
-   !* size: 50px;*!
-   !* width: 100px;*!
-!*    height: 50px;*!
-}*/
+    left: 10px;
+    top: 100px;
+}
+
