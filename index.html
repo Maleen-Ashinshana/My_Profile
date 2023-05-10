@@ -36,7 +36,7 @@
         <img src="assect/images/man-analysing-binary-code-virtual-screen.png" class="main_img">
         <!--<h3 class="h3">Hello,I am</h3>-->
 
-        <span class="auto_type1" id="a1">
+        <span class="auto_type1">
             Hello,I am
         </span>
         <h1 class="auto_type2">
@@ -62,23 +62,40 @@
     </home>
     <about class="about">
 <div class="row_3">
-    <label class="a1">About</label>
-    <label class="a2">Me</label>
+    <label class="a1">About<span class="a2">Me</span></label>
+    <!--<label class="a2">Me</label>-->
     <img src="assect/images/IMG-20211130-WA0016.png" class="about_img">
-    <p class="content">
+   <!-- <div class="p">-->
+        <p class="para" id="text">
+            I am passionate about making software and web applications with cool UI/UX designs that improves the lives of
+            those around me.
+            Also I am interested in creating software and web applications for clients ranging from individuals to small
+            businesses
+
+        </p>
+   <!-- </div>-->
+    <!--<p class="content">
         I am passionate about making software and web applications with cool UI/UX designs that improves the lives of
         those around me.
         Also I am interested in creating software and web applications for clients ranging from individuals to small
         businesses
 
-    </p>
+    </p>-->
     <div class="frame">
-        <button class="custom-btn btn-3"><span>Download</span></button>
+        <button class="custom-btn btn-3"><span>Download CV</span></button>
+    </div>
+    <div class="icon">
+        <img src="assect/icon/facebook.png" class="icon2 facebook">&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <img src="assect/icon/whatsapp.png" class="icon2 whatsapp">&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="assect/icon/linkedin.png"class="icon2 linkedin">&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="assect/icon/github%20(1).png"class="icon2 github">&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="assect/icon/instagram.png"class="icon2 instagram">&nbsp;&nbsp;&nbsp;&nbsp;
     </div>
 
 </div>
     </about>
-
+    <script src="assect/js/jquery-3.6.4.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed=new Typed(".auto_type4",{
@@ -88,6 +105,24 @@
             loop:true,
         })
 
+    </script>
+    <script>
+        var text = document.getElementById('text');
+        var newDom = '';
+        var animationDelay = 6;
+
+        for(let i = 0; i < text.innerText.length; i++)
+        {
+            newDom += '<span class="char">' + (text.innerText[i] == ' ' ? '&nbsp;' : text.innerText[i])+ '</span>';
+        }
+
+        text.innerHTML = newDom;
+        var length = text.children.length;
+
+        for(let i = 0; i < length; i++)
+        {
+            text.children[i].style['animation-delay'] = animationDelay * i + 'ms';
+        }
     </script>
 </div>
 </body>
