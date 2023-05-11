@@ -406,3 +406,132 @@ button {
     border-radius: 10px;
 
 }
+
+/*Skill page*/
+.row_4{
+    border: 1px solid greenyellow;
+    height: 730px;
+    display: flex;
+    position: relative;
+    top: 0px;
+    background-color: #141414 ;
+}
+.s{
+    color: white;
+    font-size: 50px;
+    font-family:"Alegreya" ;
+    font-weight: bolder;
+    position: absolute;
+    left: 600px;
+}
+.s2{
+    color: red;
+    background: red -webkit-gradient(linear,left top,right top,from(red),to(#ED2B2A),color-stop(0.5,#FFE0D3)) 0 0 no-repeat;
+    background-size: 150px;
+    color: rgb(255,255,255,0.1);
+    -webkit-background-clip: text;
+    animation: animated 3s infinite;
+}
+@keyframes animated {
+    0%{
+        background-position: -200px;
+    }
+    100%{
+        background-position: 200px;
+    }
+
+}
+.frame2 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 1200px;
+    height:600px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    background: #141414 ;
+    color: #333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: 200px;
+    width: 400px;
+    transform: perspective(60px) translate(-50%,-50%);
+    transform-style: preserve-3d;
+}
+
+.card{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 125px;
+    /*top: 40px;*/
+    /*border-radius: 50px;*/
+
+    border: 1px solid #141414 ;
+}
+.card img{
+    width: 100%;
+}
+
+#card1{
+    animation: cardAnim 8s ease-in-out infinite;
+    position: absolute;
+    top: 120px;
+
+}
+
+#card2{
+    animation: cardAnim 8s ease-in-out infinite;
+    animation-delay: -1s;
+    position: absolute;
+    top: 120px;
+}
+#card3{
+    animation: cardAnim 8s ease-in-out infinite;
+    animation-delay: -2s;
+    position: absolute;
+    top: 120px;
+}
+#card4{
+    animation: cardAnim 8s ease-in-out infinite;
+    animation-delay: -3s;
+    position: absolute;
+    top: 120px;
+}
+#card5{
+    animation: cardAnim 8s ease-in-out infinite;
+    animation-delay: -4s;
+    position: absolute;
+    top: 120px;
+}
+#card6{
+    animation: cardAnim 8s ease-in-out infinite;
+    animation-delay: -5s;
+    position: absolute;
+    top: 120px;
+
+}
+
+@keyframes cardAnim {
+    0%, 100% {
+        transform: translate3d(0, 0, 0);
+    / / z-index: 2;
+    }
+    33.33% {
+        transform: translate3d(800px, -50%, -50px);
+    / / z-index: 1;
+    }
+    66.67% {
+        transform: translate3d(-800px, -50%, -50px);
+    }
+}
