@@ -266,8 +266,62 @@
         </div>
 
     </projet>
-</div>
 
+    <assingment class="assingment">
+        <div class="row_7">
+            <h3 class="p1">Assignment<br><span class="p2">I'veDone</span></h3>
+             <div class="slider">
+                 <div class="items">
+                     <h1 class="p-h1">Assignment 1</h1>
+                     <p class="a-p p-h1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, velit!</p>
+                     <a href="#" class="as-link">View Assignment</a>
+                 </div>
+                 <div class="items">
+                     <h1 class="p-h1">Assignment 2</h1>
+                     <p class="a-p p-h1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, velit!</p>
+                     <a href="#" class="as-link">View Assignment</a>
+                 </div>
+                 <div class="items">
+                     <h1 class="p-h1">Assignment 3</h1>
+                     <p class="a-p p-h1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, velit!</p>
+                     <a href="#" class="as-link">View Assignment</a>
+                 </div>
+                 <div class="items">
+                     <h1 class="p-h1">Assignment 4</h1>
+                     <p class="a-p p-h1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, velit!</p>
+                     <a href="#" class="as-link">View Assignment</a>
+                 </div>
+                 <div class="items">
+                     <h1 class="p-h1">Assignment 5</h1>
+                     <p class="a-p p-h1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, velit!</p>
+                     <a href="#" class="as-link">View Assignment</a>
+                 </div>
+                 <div class="items">
+                     <h1 class="p-h1">Assignment 6</h1>
+                     <p class="a-p p-h1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, velit!</p>
+                     <a href="#" class="as-link">View Assignment</a>
+                 </div>
+                 <div class="items">
+                     <h1 class="p-h1">Assignment 7</h1>
+                     <p class="a-p p-h1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, velit!</p>
+                     <a href="#" class="as-link">View Assignment</a>
+                 </div>
+                 <div class="items">
+                     <h1 class="p-h1">Assignment 8</h1>
+                     <p class="a-p p-h1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, velit!</p>
+                     <a href="#" class="as-link">View Assignment</a>
+                 </div>
+                 <button id="next">></button>
+                 <button id="prev"><</button>
+             </div>
+        </div>
+
+
+    </assingment>
+
+
+
+</div>
 <script src="assect/js/jquery-3.6.4.min.js"></script>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script>
@@ -297,5 +351,48 @@
         text.children[i].style['animation-delay'] = animationDelay * i + 'ms';
     }
 </script>
+
+<script>
+    let item=document.querySelectorAll('.slider .items');
+    let next=document.getElementById('next');
+    let prev=document.getElementById('prev');
+
+    let active=3;
+    function loadShow() {
+     let stt=0;
+        item[active].style.transform=`none`;
+         /* item[i].style.zIndex = 1;*/
+        item[active].style.filter='none';
+        item[active].style.opacity= 1;
+     for(var i =active + 1;i < item.length; i++){
+         stt++;
+         item[i].style.transform=`translateX(${120*stt}px) scale(${1 - 0.15*stt}) perspective(16px) rotateY(-1deg)`;
+       /*  item[i].style.zIndex = -stt;*/
+         item[i].style.filter='blur(5px)';
+         item[i].style.opacity=stt > 2 ? 0 : 0.6;
+     }
+     stt=0;
+     for (var i =active -1;i >= 0; i--){
+         stt++;
+         item[i].style.transform=`translateX(${-120*stt}px) scale(${1 - 0.15*stt}) perspective(16px) rotateY(1deg)`;
+         /*  item[i].style.zIndex = -stt;*/
+         item[i].style.filter='blur(5px)';
+         item[i].style.opacity=stt > 2 ? 0 : 0.6;
+     }
+
+    }
+    loadShow()
+    next.onclick=function () {
+        active = active + 1 < item.length ? active + 1 : active;
+        loadShow()
+    }
+    prev.onclick=function () {
+        active = active -1 >= 0 ? active -1 : active;
+        loadShow()
+    }
+</script>
+
+<!--Assingmnet-->
+
 </body>
 </html>
