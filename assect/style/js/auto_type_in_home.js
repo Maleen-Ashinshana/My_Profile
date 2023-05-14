@@ -1,4 +1,3 @@
-/*
 var typed=new Typed(".auto_type4",{
     strings:["Software Developer","UI/UX Desingner","Web Developer"],
     typeSpeed:150,
@@ -22,10 +21,9 @@ for(let i = 0; i < length; i++)
 {
     text.children[i].style['animation-delay'] = animationDelay * i + 'ms';
 }
-*/
 
 
-var typed=new Typed(".auto_type4",{
+/*var typed=new Typed(".auto_type4",{
     strings:["Software Developer","UI/UX Desingner","Web Developer"],
     typeSpeed:150,
     backSpeed:150,
@@ -33,4 +31,4 @@ var typed=new Typed(".auto_type4",{
 });
 var text = document.getElementById('text');
 var newDom = '';
-var animationDelay = 1;
+var animationDelay = 1;*/
