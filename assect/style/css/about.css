@@ -1,10 +1,12 @@
 .row_3{
     /*    border: 1px solid blue;*/
     height: 730px;
+    width: 1520px;
     display: flex;
     position: relative;
     top: 0px;
     background-color: #141414 ;
+    padding: 0;
 }
 label{
     color:red;
@@ -14,47 +16,6 @@ label{
     position: absolute;
     left: 650px;
     top: 10px;
-    background: red -webkit-gradient(linear,left top,right top,from(red),to(#ED2B2A),color-stop(0.5,#FFE0D3)) 0 0 no-repeat;
-    background-size: 150px;
-    color: rgb(255,255,255,0.1);
-    -webkit-background-clip: text;
-    animation: animate 3s infinite;
-    /*-webkit-text-stroke: 2px red;*/
-}
-
-/*
-.a1:nth-child(1){
-    color: transparent;
-    -webkit-text-stroke: 2px black;
-}
-.a1:nth-child(2){
-    color:red;
-    animation: animate 4s ease-in-out infinite;
-}
-@keyframes animate {
-    0%,100%{
-        clip-path: polygon(0% 31%, 7% 39%, 17% 47%, 27% 48%, 33% 45%, 39% 39%, 45% 32%, 53% 30%, 60% 32%, 67% 41%, 70% 49%, 82% 48%, 86% 41%, 91% 35%, 97% 29%, 100% 25%, 99% 99%, 0% 99%);
-    }
-    50%{
-        clip-path: polygon(0 29%, 15% 48%, 33% 54%, 48% 53%, 55% 49%, 66% 38%, 77% 28%, 90% 26%, 100% 24%, 100% 99%, 0% 100%);
-    }
-*/
-@keyframes animate {
-    0%{
-        background-position: -200px;
-    }
-    /*20%{
-        background-position: top left;
-    }
-    50%{
-        background-position: top left;
-    }
-    90%{
-        background-position: top right;
-    }*/
-    100%{
-        background-position: 200px;
-    }
 }
 
 .a2{
@@ -65,29 +26,7 @@ label{
     position: absolute;
     left: 160px;
     top: 0px;
-    background: white -webkit-gradient(linear,left top,right top,from(white),to(white),color-stop(0.5,red)) 0 0 no-repeat;
-    background-size: 150px;
-    color: rgb(255,255,255,0.1);
-    -webkit-background-clip: text;
-    /*    animation: animate2 3s infinite;*/
 
-}
-@keyframes animate2 {
-    0%{
-        background-position: -200px;
-    }
-    /*20%{
-        background-position: top left;
-    }
-    50%{
-        background-position: top left;
-    }
-    90%{
-        background-position: top right;
-    }*/
-    100%{
-        background-position: 200px;
-    }
 }
 .about_img{
     width: 450px;
@@ -97,13 +36,9 @@ label{
     top: 90px;
     border-radius: 50px;
     display: flex;
-    /*border: 1px solid blue;*/
+
 }
-/*.p{
-    border: 1px solid white;
-    width: 3000px;
-    height: 200px;
-}*/
+
 .para{
     color: white;
     font-family: "Times New Roman";
@@ -169,8 +104,6 @@ button {
     position: absolute;
     bottom: 200px;
     right: 500px;
-
-
 }
 .btn-3 span {
     position: relative;
@@ -250,5 +183,4 @@ button {
     height: 50px;
     width: 50px;
     border-radius: 10px;
-
 }

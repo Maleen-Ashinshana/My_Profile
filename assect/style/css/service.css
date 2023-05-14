@@ -1,5 +1,6 @@
 .row_5{
     height: 730px;
+    width: 1520px;
     display: flex;
     position: relative;
     top: 0px;
@@ -163,11 +164,6 @@ font-size: 24px;
 .canvas:hover .rect-gradient {
     animation: draw-line 3s cubic-bezier(0.19, 1, 0.22, 1) forwards;
 }
-
-
-
-
-
 @keyframes draw-line {
     from {
         stroke-dashoffset: 2000;

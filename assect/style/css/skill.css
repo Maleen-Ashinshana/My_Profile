@@ -1,10 +1,12 @@
 .row_4{
     /*    border: 1px solid greenyellow;*/
     height: 730px;
+    width: 1520px;
     display: flex;
     position: relative;
     top: 0px;
     background-color: #141414 ;
+padding: 0;
 }
 .s{
     color: white;
@@ -61,26 +63,17 @@
 
 .card{
     position: absolute;
-
-/*    height: fit-content;
-    width: fit-content;*/
-/*    width: 300px;
-    height: 150px;*/
     left: 125px;
-    /*top: 40px;*/
-    /*border-radius: 50px;*/
     background-color: #141414;
     border: 1px solid #141414 ;
 }
 .card img{
     width: 100%;
 }
-
 #card1{
     animation: cardAnim 8s ease-in-out infinite;
     position: absolute;
     top: 120px;
-
 }
 
 #card2{

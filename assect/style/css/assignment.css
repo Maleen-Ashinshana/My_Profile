@@ -1,16 +1,14 @@
 .row_7 {
     /*    border: 1px solid red;*/
     height: 730px;
+    width: 1520px;
     display: flex;
     position: relative;
     top: 0px;
-    /*    background-image:
-                linear-gradient(
-                        to top right, #8B5CF6, #EC4899
-                );*/
     background-color: #141414;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 .slider{
     position: relative;
@@ -44,8 +42,6 @@
     font-family: monospace;
     font-weight: bold;
     left: 50px;
-
-
 }
 #next{
     left: unset;

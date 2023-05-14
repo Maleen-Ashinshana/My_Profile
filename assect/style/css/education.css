@@ -1,10 +1,12 @@
 .row_8{
     /*    border: 1px solid red;*/
     height: 1300px;
+    width: 1520px;
     display: flex;
     position: relative;
     top: 0px;
     background-color: #141414;
+    padding: 0;
 }
 .e2{
     position: absolute;
@@ -23,21 +25,8 @@
     position: absolute;
     left: 0px;
     top: 10px;
-    background: red -webkit-gradient(linear, left top, right top, from(red), to(#ED2B2A), color-stop(0.5, #FFE0D3)) 0 0 no-repeat;
-    background-size: 150px;
-    color: rgb(255, 255, 255, 0.1);
-    -webkit-background-clip: text;
-    /*   opacity: 0;*/
-    animation: animated 3s infinite;
-}
-/*
-.pe1{
 
 }
-
-.pe1.animate__animated{
-    opacity: 1;
-} */
 .liner{
     width: 20px;
     height: 1000px;
@@ -126,9 +115,7 @@
     bottom: 10px;
     left: 60px;
 }
-
 /*4*/
-
 #length_div4{
     position: absolute;
     left: 0px;
@@ -146,11 +133,7 @@
     position: absolute;
     bottom: 30px;
 }
-
-
 /*5*/
-
-
 #length_div5{
     position: absolute;
     right: 0px;
@@ -161,54 +144,3 @@
     bottom: 50px;
     /*    left: 60px;*/
 }
-/*#text_area2{
-    position: absolute;
-    left: 300px;
-}
-#main_circle2{
-    position: absolute;
-    left: 0;
-}
-#*/
-/*#length_div1{
-    position: absolute;
-
-}*/
-
-/*#main_circle1{
-    position: absolute;
-    left: 0px;
-    bottom:0px;
-    right: 0;
-    right: 0;
-    margin: auto;
-
-
-}*/
-/*
-
-#main_circle2{
-    position: absolute;
-    top: 250px;
-}
-#main_circle3{
-    position: absolute;
-    top: 400px;
-}
-#main_circle4{
-    position: absolute;
-    top: 550px;
-}
-#main_circle5{
-    position: absolute;
-    top: 700px;
-}*/
-
-/*#small_Circle1{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;
-}*/
