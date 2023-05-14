@@ -1251,16 +1251,16 @@ font-size: 24px;
 
 /*gallery*/
 .row_9{
-        border: 1px solid red;
+/*        border: 1px solid red;*/
     display: flex;
-    height: 1300px;
+    height: 1350px;
     position: relative;
     top: 0px;
     background-color: #141414;
 }
 .gallery_img{
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     border-radius: 20px;
 }
 #gallery_img1{
@@ -1282,5 +1282,76 @@ font-size: 24px;
     position: absolute;
     top: 900px;
     right: 200px;
+}
+
+/*Contact*/
+.row_10{
+    border: 1px solid red;
+    display: flex;
+    height: 730px;
+    position: relative;
+    top: 0px;
+    background-color: #141414;
+}
+.name{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    right: 100px;
+    top: 180px;
+    border-radius: 10px;
+}
+.email{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    right: 100px;
+    top: 250px;
+    border-radius: 10px;
+}
+.massege{
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    right: 100px;
+    top: 320px;
+    border-radius: 10px;
+}
+.submit{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 150px;
+    right: 100px;
+    border-radius: 10px;
+    background-color: #0b5ed7;
+    color:white ;
+}
+.img1{
+    width: 50px;
+    height: 50px;
+
+}
+#phone-img{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+#email_img{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.email_to{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+    color: white;
+}
+.phone_to{
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    color: white;
 }
 
