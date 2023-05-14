@@ -1033,3 +1033,228 @@ font-size: 24px;
     /*border-radius: 10px;*/
     color: black;
 }
+/*education*/
+.row_8{
+/*    border: 1px solid red;*/
+    height: 1300px;
+    display: flex;
+    position: relative;
+    top: 0px;
+    background-color: #141414;
+}
+.e2{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    color: white;
+    font-size: 50px;
+    font-family:"Alegreya" ;
+}
+/*Style For animation*/
+ .pe1 {
+     color: red;
+     font-size: 50px;
+     font-family: "Alegreya";
+     font-weight: bolder;
+     position: absolute;
+     left: 0px;
+     top: 10px;
+     background: red -webkit-gradient(linear, left top, right top, from(red), to(#ED2B2A), color-stop(0.5, #FFE0D3)) 0 0 no-repeat;
+     background-size: 150px;
+     color: rgb(255, 255, 255, 0.1);
+     -webkit-background-clip: text;
+  /*   opacity: 0;*/
+     animation: animated 3s infinite;
+ }
+ /*
+ .pe1{
+
+ }
+
+ .pe1.animate__animated{
+     opacity: 1;
+ } */
+.liner{
+    width: 20px;
+    height: 1000px;
+    background-color: red;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 70px;
+    margin: auto;
+    border-radius: 10px;
+}
+.main_circle{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+}
+.small_Circle{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom:0;
+    top: 0px;
+    right:5px ;
+    margin: auto;
+}
+.length_div{
+    width:300px;
+    height: 20px;
+    background-color: #7F8C8D;
+    position: absolute;
+    right:0px;
+    border-radius: 50px;
+    top: 100px;
+   /* margin: 50px;*/
+}
+.text_area{
+    width: 400px;
+    height: 200px;
+    background-color: #313030;
+    position: absolute;
+    right: 300px;
+    bottom: -90px;
+    border-radius: 40px;
+}
+.education_text{
+    color: white;
+    font-family: "Segoe UI Symbol";
+    font-size: 2em;
+    font-weight: 500;
+    position: absolute;
+    left: 100px;
+    bottom: 70px;
+
+}
+#length_div2{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+}
+#text_area2{
+    position: absolute;
+    left: 300px;
+}
+#main_circle2{
+    position: absolute;
+    left: 0;
+}
+#education_text2{
+    position: absolute;
+    bottom: 10px;
+}
+
+/*3*/
+#length_div3{
+    position: absolute;
+    right: 0px;
+    top: 500px;
+}
+#education_text3{
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+}
+
+/*4*/
+
+#length_div4{
+    position: absolute;
+    left: 0px;
+    top: 700px;
+}
+#text_area4{
+    position: absolute;
+    left: 300px;
+}
+#main_circle4{
+    position: absolute;
+    left: 0;
+}
+#education_text4{
+    position: absolute;
+    bottom: 30px;
+}
+
+
+/*5*/
+
+
+#length_div5{
+    position: absolute;
+    right: 0px;
+    top: 900px;
+}
+#education_text5{
+    position: absolute;
+    bottom: 50px;
+/*    left: 60px;*/
+}
+/*#text_area2{
+    position: absolute;
+    left: 300px;
+}
+#main_circle2{
+    position: absolute;
+    left: 0;
+}
+#*/
+/*#length_div1{
+    position: absolute;
+
+}*/
+
+/*#main_circle1{
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+    right: 0;
+    right: 0;
+    margin: auto;
+
+
+}*/
+/*
+
+#main_circle2{
+    position: absolute;
+    top: 250px;
+}
+#main_circle3{
+    position: absolute;
+    top: 400px;
+}
+#main_circle4{
+    position: absolute;
+    top: 550px;
+}
+#main_circle5{
+    position: absolute;
+    top: 700px;
+}*/
+
+/*#small_Circle1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}*/
+
+/*gallery*/
+.row_9{
+        border: 1px solid red;
+    height: 730px;
+    display: flex;
+    position: relative;
+    top: 0px;
+    background-color: #141414;
+}

@@ -6,9 +6,19 @@
     <link rel="stylesheet" href="assect/style/style.css">
     <link rel="stylesheet" href="assect/boostrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assect/boostrap/css/bootstrap-grid.min.css">
+        <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assect/style/preLoader.css">
 
 </head>
 <body>
+<!--<div id="preLoader">
+    <img src="assect/gift/Spinner-1s-200px.gif" class="gift">
+</div>-->
 <div class="grid">
     <home class="home">
     <div class="row">
@@ -237,7 +247,7 @@
                         <a href="#">View Project</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" >
                     <span class="sp"></span>
                     <span class="sp"></span>
                     <span class="sp"></span>
@@ -319,10 +329,92 @@
 
     </assingment>
 
+    <education class="education">
+        <div class="row_8">
+            <h3 class="pe1">Education</h3><br>
+            <span class="e2">Work Expirience and Some Skills</span>
+            <div class="liner">
+
+                    <div class="length_div" id="length_div1">
+                        <div class="main_circle" id="main_circle1">
+                            <div class="small_Circle" id="small_Circle1"></div>
+                      </div>
+                        <div class="text_area" id="text_area1" data-aos="fade-down-right" data-aos-duration="3000">
+                            <p class="education_text" id="education_text1">2022 Join IJSE</p>
+                        </div>
+                    </div>
+
+                <div class="length_div" id="length_div2">
+                    <div class="main_circle" id="main_circle2">
+                        <div class="small_Circle" id="small_Circle2"></div>
+                    </div>
+                    <div class="text_area" id="text_area2" data-aos="fade-up-left" data-aos-duration="3000">
+                        <p class="education_text" id="education_text2">2021 Senior Prifect Board From G/Poddiwala N.C</p>
+                    </div>
+                </div>
+
+                <div class="length_div" id="length_div3">
+                    <div class="main_circle" id="main_circle3">
+                        <div class="small_Circle" id="small_Circle3"></div>
+                    </div>
+                    <div class="text_area" id="text_area3" data-aos="fade-down-right" data-aos-duration="3000">
+                        <p class="education_text" id="education_text3">From January 2020 to june 2020, do an English course at VTA</p>
+                    </div>
+                </div>
+
+                <div class="length_div" id="length_div4">
+                    <div class="main_circle" id="main_circle4" >
+                        <div class="small_Circle" id="small_Circle4"></div>
+                    </div>
+                    <div class="text_area" id="text_area4" data-aos="fade-up-left" data-aos-duration="3000">
+                        <p class="education_text" id="education_text4">2019 O/L
+                            (G/Poddiwala N.C)</p>
+                    </div>
+                </div>
+
+                <div class="length_div" id="length_div5" >
+                    <div class="main_circle" id="main_circle5">
+                        <div class="small_Circle" id="small_Circle5"></div>
+                    </div>
+                    <div class="text_area" id="text_area5"data-aos="fade-down-right" data-aos-duration="3000">
+                        <p class="education_text" id="education_text5">2008-2022 G/Poddiwala N.C</p>
+                    </div>
+                </div>
+        <!--        <div class="length_div" id="length_div2">
+                    <div class="main_circle" id="main_circle2">
+                        <div class="small_Circle" id="small_Circle2"></div>
+                    </div>
+                </div>-->
+
+       <!--         <div class="main_circle" id="main_circle3">
+                    <div class="small_Circle"></div>
+                </div>
+                <div class="main_circle" id="main_circle4">
+                    <div class="small_Circle"></div>
+                </div>
+                <div class="main_circle" id="main_circle5">
+                    <div class="small_Circle"></div>
+                </div>-->
+            </div>
+        </div>
+
+    </education>
+
+    <gllery>
+        <div class="row_9">
+            <h3 class="pe1">Gallery</h3><br>
+
+
+        </div>
+
+
+    </gllery>
+
 
 
 </div>
 <script src="assect/js/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script>
     var typed=new Typed(".auto_type4",{
@@ -351,7 +443,7 @@
         text.children[i].style['animation-delay'] = animationDelay * i + 'ms';
     }
 </script>
-
+<!--assignment-->
 <script>
     let item=document.querySelectorAll('.slider .items');
     let next=document.getElementById('next');
@@ -392,7 +484,20 @@
     }
 </script>
 
-<!--Assingmnet-->
+<!--Education animation-->
+<script>
+    /*$(document).ready(function (){
+     $(".pe1").waypoint(function (){
+          $(".pe1").addClass("animate__animated animate__fadeInLeft")
+     },{offset:"100"});
+    });*/
+</script>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>
