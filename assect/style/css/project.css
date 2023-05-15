@@ -13,7 +13,7 @@
     font-family:"Alegreya" ;
     font-weight: bolder;
     position: absolute;
-    left: 0px;
+    left: 100px;
     top: 10px;
     background: red -webkit-gradient(linear,left top,right top,from(red),to(#ED2B2A),color-stop(0.5,#FFE0D3)) 0 0 no-repeat;
     background-size: 150px;
