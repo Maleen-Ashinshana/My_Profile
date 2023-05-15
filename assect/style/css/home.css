@@ -1,8 +1,15 @@
 body{
     margin: 0;
     padding: 0;
-    display: grid;
+    display: flex;
+    align-items: center;
+
 }
+/*html{
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+}*/
 .nav{
     width: 98.8vw;
     background: black;
@@ -48,14 +55,21 @@ body{
 /*    border: 1px solid red;*/
    /* height: 750px;
     width: 1510px;*/
-    width: fit-content;
-    height: fit-content;
+/*    height: 750px;
+    width: 1510px;*/
+    /*width: fit-content;*/
+    /*height: fit-content;*/
+/*    border: 1px solid red;*/
+    height: 750px;
+    width: 1525px;
     display: flex;
 
 }
 .main_img{
-    width: 1520px;
+    width: 1525px;
     height: 750px;
+   /* width: 1520px;
+    height: 750px;*/
     /*width: 1000px;*/
     /*height: 1500px;*/
 }

@@ -1,8 +1,10 @@
 .row_3{
     /*    border: 1px solid blue;*/
-    height: 730px;
-    width: 1520px;
+/*    height: 730px;
+    width: 1520px;*/
+    height: 99vh;
     display: flex;
+    width: 99vw;
     position: relative;
     top: 0px;
     background-color: #141414 ;
@@ -16,6 +18,11 @@ label{
     position: absolute;
     left: 650px;
     top: 10px;
+    background: red -webkit-gradient(linear,left top,right top,from(red),to(#ED2B2A),color-stop(0.5,#FFE0D3)) 0 0 no-repeat;
+    background-size: 150px;
+    color: rgb(255,255,255,0.1);
+    -webkit-background-clip: text;
+    animation: animated 3s infinite;
 }
 
 .a2{
