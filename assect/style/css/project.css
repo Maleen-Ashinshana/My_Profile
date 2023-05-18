@@ -253,6 +253,7 @@
 }
 
 .container{
+/*    border: 1px solid red;*/
     width: 1100px;
     display: flex;
     justify-content: center;
@@ -427,5 +428,31 @@
     }
     100%{
         transform: translateY(-100%);
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1440px){
+    .p1{
+        font-size: 3em;
+       }
+    .container{
+        width: 900px;
+    }
+    .card{
+        width: 100px;
+        height: 100px;
+    }
+    #card_1{
+        left: 10%;
+    }
+    #card_2{
+        left: 30%;
+    }
+    #card_3{
+        left: 40%;
+        bottom: -100%;
+    }
+    #card_4{
+        left: 50%;
+        bottom: -100%;
     }
 }
