@@ -303,3 +303,49 @@
     bottom: 50px;
     /*    left: 60px;*/
 }
+@media all and (min-width: 1024px) and (max-width: 1440px){
+    .pe1{
+        font-size: 2.5em;
+        top: 10%;
+    }
+    .e2{
+        font-size: 2.5em;
+        top: 15%;
+    }
+    .liner{
+        top: 10%;
+        width: 15px;
+        justify-content: center;
+    }
+    .length_div{
+        width: 240px;
+        height: 15px;
+    }
+    .main_circle{
+        width: 15px;
+        height: 15px;
+    }
+    .small_Circle{
+        width: 7.5px;
+        height: 7.5px;
+        left: 4px;
+    }
+    .text_area{
+        width:340px;
+        height: 160px;
+        left: -142%;
+        bottom: -70px;
+    }
+    .education_text{
+        font-size: 1.5em;
+        align-items: center;
+
+    }
+    #text_area2{
+        left: 240px;
+    }
+    #text_area4{
+        left: 240px;
+        top: -70px;
+    }
+}

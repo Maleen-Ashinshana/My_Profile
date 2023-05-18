@@ -69,3 +69,23 @@
     top: 900px;
     right: 200px;
 }
+@media all and (min-width: 1024px) and (max-width: 1440px){
+     .gallery_img{
+          height: 300px;
+          width: 300px;
+     }
+    #gallery_img1{
+        top: 200px;
+        left: 150px;
+    }
+    #gallery_img2{
+        position: absolute;
+        top: 350px;
+        right: 300px;
+    }
+    #gallery_img3{
+        position: absolute;
+        top: 700px;
+        left: 200px;
+    }
+}
