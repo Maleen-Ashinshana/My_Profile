@@ -291,3 +291,32 @@ body{
     font-weight: 600;
     color: red;
 }
+@media all and (min-width: 1024px) and (max-width:1440px){
+    .main_img{
+        width: 100%;
+        height: 100%;
+    }
+    .auto_type1{
+        top: 15%;
+        font-size: 2em;
+
+    }
+    .auto_type2{
+        top: 22%;
+        left: 5%;
+        font-size: 5em;
+        display: block;
+    }
+    .auto_type3{
+        top: 40%;
+        left: 38%;
+        font-size: 2em;
+    }
+    .auto_type4{
+        top: 50%;
+        left: 30%;
+        font-size: 2em;
+    }
+
+
+}

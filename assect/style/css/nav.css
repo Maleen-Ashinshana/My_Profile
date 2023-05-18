@@ -96,3 +96,16 @@ body{
 .nav-link:hover{
     font-weight: bolder;
 }
+@media all and (min-width: 1024px) and (max-width:1440px){
+    .nav{
+        background: red;
+        color: white;
+        margin: auto;
+    }
+    .nav-link{
+        left: 43%;
+        font-size: 1em;
+    }
+
+
+}
