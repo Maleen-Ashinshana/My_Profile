@@ -109,7 +109,7 @@ body{
 }
 @media all  and (max-width:1024px){
     .nav{
-        background: red;
+        /*background: red;*/
         color: white;
         margin: auto;
     }
