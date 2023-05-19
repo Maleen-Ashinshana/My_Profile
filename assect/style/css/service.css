@@ -380,7 +380,7 @@ font-size: 24px;
         opacity: 1;
     }
 }
-@media all and (min-width: 1024px) and (max-width: 1440px){
+@media all  and (max-width: 1440px){
 
     .se1{
         font-size: 2.5em;
@@ -395,6 +395,27 @@ font-size: 24px;
         height: 270px;
         top: -5%;
         left: 10%;
+    }
+    .canvas_copy {
+        left: 10%;
+    }
+}
+@media all and (max-width: 1024px) {
+
+    .se1{
+        font-size: 2.5em;
+        left: 150%;
+    }
+    .canvas_img{
+        width: 100px;
+        height: 100px;
+    }
+    .canvas{
+        width: 200px;
+        height: 220px;
+        top: -10%;
+        left: 10%;
+
     }
     .canvas_copy {
         left: 10%;
