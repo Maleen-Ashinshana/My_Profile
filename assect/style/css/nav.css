@@ -96,7 +96,7 @@ body{
 .nav-link:hover{
     font-weight: bolder;
 }
-@media all and (min-width: 1024px) and (max-width:1440px){
+@media all  and (max-width:1440px){
     .nav{
         /*background: red;*/
         color: white;
@@ -106,6 +106,15 @@ body{
         left: 43%;
         font-size: 1em;
     }
-
-
+}
+@media all  and (max-width:1024px){
+    .nav{
+        background: red;
+        color: white;
+        margin: auto;
+    }
+    .nav-link{
+        left: 25%;
+        font-size: 0.9em;
+    }
 }

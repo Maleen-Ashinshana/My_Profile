@@ -292,7 +292,7 @@ body{
     font-weight: 600;
     color: red;
 }
-@media all and (min-width: 1024px) and (max-width:1440px){
+@media all  and (max-width:1440px){
     .main_img{
         width: 100%;
         height: 100%;
@@ -318,6 +318,42 @@ body{
         left: 30%;
         font-size: 2em;
     }
+}
+@media all and (max-width:1024px){
+    .main_img{
+        width: 100%;
+        height: 100%;
+    }
+    .auto_type1{
+        top: 15%;
+        font-size: 1.5em;
 
-
+    }
+    .auto_type2{
+        top: 22%;
+        left: 5%;
+        font-size: 4em;
+        display: block;
+    }
+    .auto_type2_1{
+        position: absolute;
+        top: 70%;
+        left:70%;
+        color: transparent;
+        -webkit-text-stroke: 1px black;
+        background: url("../../images/back2.png");
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+    }
+    .auto_type3{
+        top: 50%;
+        left: 40%;
+        font-size: 1.5em;
+    }
+    .auto_type4{
+        top: 60%;
+        left: 25%;
+        font-size: 1.9em;
+    }
 }
