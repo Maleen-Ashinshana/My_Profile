@@ -118,3 +118,17 @@ body{
         font-size: 0.9em;
     }
 }
+@media all  and (max-width:768px){
+    .nav{
+/*        background: red;*/
+        color: white;
+        margin: auto;
+    }
+    .nav-link{
+        left: 0%;
+        font-size: 0.82em;
+    }
+    .nav-link::before{
+        height: 4px;
+    }
+}

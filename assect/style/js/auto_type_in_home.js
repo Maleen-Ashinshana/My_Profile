@@ -1,5 +1,5 @@
 var typed=new Typed(".auto_type4",{
-    strings:["Software Developer","UI/UX Designer","Web Developer"],
+    strings:["Full Stack Developer","UI/UX Designer","Web Developer"],
     typeSpeed:150,
     backSpeed:150,
     loop:true,
