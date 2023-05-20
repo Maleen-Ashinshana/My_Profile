@@ -126,7 +126,7 @@ body{
     }
     .nav-link{
         left: 0%;
-        font-size: 0.82em;
+        font-size: 0.8em;
     }
     .nav-link::before{
         height: 4px;
