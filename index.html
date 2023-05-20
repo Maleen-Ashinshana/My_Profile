@@ -28,6 +28,7 @@
 
 <div class="grid">
     <nav class="nav" style="position: fixed;z-index: 10">
+        <div class="menu"></div>
         <a class="nav-link active" aria-current="page" href="#home"style="color: white"id="btn_home">Home</a>
         <a class="nav-link" href="#about"style="color: white" id="btn_about">About me</a>
         <a class="nav-link" href="#skill"style="color: white"id="btn_skill">Skills</a>
@@ -403,6 +404,13 @@
 <script src="assect/style/js/auto_type_in_home.js"></script>
 <script src="assect/style/js/slider.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    let menu = document.querySelector('.menu');
+    let nav = document.querySelector('nav');
+    menu.onclick = function () {
+        nav.classList.toggle('active')
+    }
+</script>
 
 <script>
     AOS.init();

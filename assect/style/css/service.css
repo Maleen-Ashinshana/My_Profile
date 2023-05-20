@@ -421,3 +421,24 @@ font-size: 24px;
         left: 10%;
     }
 }
+@media all and (max-width: 768px) {
+
+    .se1{
+        font-size: 2.5em;
+        left: 100%;
+    }
+    .canvas_img{
+        width: 100px;
+        height: 100px;
+    }
+    .canvas{
+        width: 200px;
+        height: 220px;
+        top: -10%;
+        left: 10%;
+
+    }
+    .canvas_copy {
+        left: 10%;
+    }
+}
