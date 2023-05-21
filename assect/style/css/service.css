@@ -422,23 +422,53 @@ font-size: 24px;
     }
 }
 @media all and (max-width: 768px) {
-
+/*   .service{
+      !* width: 700px;*!
+      !* height: 1200px;*!
+       top: 280%;
+   }*/
+    .service{
+        width: 750px;
+        height: 750px;
+    }
     .se1{
         font-size: 2.5em;
         left: 100%;
     }
+
     .canvas_img{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     }
     .canvas{
-        width: 200px;
-        height: 220px;
-        top: -10%;
+        width: 350px;
+        height: 350px;
+        top: -20%;
         left: 10%;
 
     }
+    #c1{
+        left: 5%;
+       top: -20%;
+
+    }
+    #c2{
+        left: 5%;
+        top: 10%;
+    }
+    #c3{
+        left: -50%;
+        top: 40%;
+    }
+    #c4{
+        left: -50%;
+        top: 70%;
+    }
+
+
+
     .canvas_copy {
         left: 10%;
+        top: 50%;
     }
 }
