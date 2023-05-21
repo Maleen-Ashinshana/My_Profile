@@ -119,3 +119,34 @@
         right: 700px;
     }
 }
+@media all and (max-width: 768px) {
+    .gallery{
+        height: 1200px;
+        top: 700%;
+    }
+    .pe1{
+        font-size: 2.5em;
+    }
+    .gallery_img{
+        height: 300px;
+        width: 240px;
+        top: 10%;
+    }
+    #gallery_img1{
+        top: 200px;
+        left: 150px;
+    }
+    #gallery_img2{
+        top: 350px;
+        right: 700px;
+    }
+    #gallery_img3{
+        top: 700px;
+        left: 150px;
+    }
+    #gallery_img4{
+
+        top: 750px;
+        right: 700px;
+    }
+}

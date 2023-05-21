@@ -168,16 +168,18 @@
 }
 @media all and (max-width: 768px){
     .assignment{
-        top: 200px;
+        position: absolute;
+        top: 600%;
+        height: 700px;
     }
     .slider{
-        /*border: 1px solid red;*/
-        width: 900px;
-        left: -18%;
+        border: 1px solid red;
+        width: 700px;
+        left: -25%;
         top: 10%;
     }
     #next{
-        left: 95%;
+        left: 92%;
     }
     #prev{
         left: -2%;
