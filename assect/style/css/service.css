@@ -464,9 +464,58 @@ font-size: 24px;
         left: -50%;
         top: 70%;
     }
+    .canvas_copy {
+        left: 10%;
+        top: 50%;
+    }
+}
+@media all and (max-width: 425px) {
+    /*   .service{
+          !* width: 700px;*!
+          !* height: 1200px;*!
+           top: 280%;
+       }*/
+    .service{
+        width: 750px;
+        height: 750px;
+    }
+    .se1{
+        font-size: 2em;
+        left: 50%;
+    }
 
+    .canvas_img{
+        width: 150px;
+        height: 150px;
+    }
+    .canvas{
+        width: 250px;
+        height: 250px;
+        top: -20%;
+        left: 10%;
 
+    }
+    #c1{
 
+        left: 20%;
+        top: -25%;
+
+    }
+    #c2{
+        position: absolute;
+        top: 45%;
+        right: 10%;
+    }
+    #c3{
+        position: absolute;
+        left: 10%;
+        top: 80%;
+    }
+    #c4{
+        position: absolute;
+        left: 10%;
+        top: 120%;
+    }
     .canvas_copy {
         left: 10%;
         top: 50%;

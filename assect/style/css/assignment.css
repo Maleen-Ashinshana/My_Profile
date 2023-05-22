@@ -191,3 +191,28 @@
         left: 33%;
     }
 }
+@media all and (max-width: 425px){
+    .assignment{
+        position: absolute;
+        top: 700%;
+        height: 700px;
+    }
+    .slider{
+        /* border: 1px solid red;*/
+        width: 730px;
+        left: -25.5%;
+        top: 10%;
+    }
+    #next{
+        left: 92%;
+    }
+    #prev{
+        left: -2%;
+    }
+    .items{
+        width: 35%;
+        height:80%;
+        top: 10%;
+        left: 33%;
+    }
+}

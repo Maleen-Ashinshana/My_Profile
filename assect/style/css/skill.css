@@ -353,3 +353,46 @@ padding: 0;
         }
     }
 }
+@media all and (max-width: 425px) {
+
+    .skill{
+        top: 210%;
+        height: 99.9vh;
+    }
+
+    .s{
+        font-size: 2em;
+        left: 5%;
+    }
+    .frame2{
+        left:14%;
+        width: 380px;
+        height: 400px;
+    }
+    .center{
+        height: 80px;
+        width: 150px;
+        left: 40%;
+        bottom: 10%;
+    }
+    #card1,#card2,#card3,#card4,#card5,#card6{
+        width: 250px;
+        height: 250px;
+        left: 15%;
+        top: -10%;
+    }
+
+    @keyframes cardAnim {
+        0%, 100% {
+            transform: translate3d(0, 0, 0);
+            z-index: 2;
+        }
+        33.33% {
+            transform: translate3d(-1000px, 0%, 0px);
+            z-index: 1;
+        }
+        66.67% {
+            transform: translate3d(-1000px, 0%, 0px);
+        }
+    }
+}
