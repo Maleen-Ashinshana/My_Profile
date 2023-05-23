@@ -193,9 +193,10 @@
 }
 @media all and (max-width: 425px){
     .assignment{
+      /*  border: 1px solid blue;*/
         position: absolute;
         top: 650%;
-        height: 700px;
+        height: 650px;
     }
     .slider{
         /* border: 1px solid red;*/

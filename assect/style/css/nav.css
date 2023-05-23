@@ -201,7 +201,7 @@ body{
 }
 @media all  and (max-width:425px){
     .nav{
-        background: red;
+        /*background: red;*/
         height: 5vh;
         color: white;
         margin: auto;
