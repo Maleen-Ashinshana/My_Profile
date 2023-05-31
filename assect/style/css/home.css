@@ -222,7 +222,7 @@ body{
     /* border: 5px solid darkred;*/
     width: 99vw;
     height: 1000vh;
-    background-color: #141414
+    background-color: #141414;
 }
 .home{
     /*border: 1px solid red;*/
@@ -252,8 +252,8 @@ body{
     /*color: #181660;*/
 
 }
-.auto_type2{
-    /*    color: white;*/
+/*.auto_type2{
+    !*    color: white;*!
     font-size: 90px;
     font-family: "Ave";
     position: absolute;
@@ -265,12 +265,57 @@ body{
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
+}*/
+.auto_type2 {
+    position: relative;
+    top: 30%;
+    left: 7%;
+    font-family: "Ave";
+    font-size: 4em;
+    display: inline-block;
+    letter-spacing: 15px;
+    /*color: #0e3742;*/
+    text-transform: uppercase;
+    width: 100%;
+   /* text-align: center;*/
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 1em;
+    outline: none;
+    animation: animate 5s linear infinite;
 }
-@keyframes back {
+@keyframes animate {
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: #860406;
+        text-shadow: none;
+    }
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+        color: #f9292c;
+        text-shadow: 0 0 10px #d50609, 0 0 20px #d50609, 0 0 40px #d50609,
+        0 0 80px #d50609, 0 0 160px #d50609;
+    }
+}
+/*@keyframes back {
     100%{
         background-position: 2000px ;
     }
-}
+}*/
 .auto_type3{
     position: absolute;
     left: 650px;
