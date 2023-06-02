@@ -346,7 +346,7 @@ body{
     top: 30%;
     left: 7%;
     font-family: "Ave";
-    font-size: 3.5em;
+    font-size: 4em;
     display: inline-block;
     letter-spacing: 15px;
     /*color: #0e3742;*/
@@ -413,10 +413,15 @@ body{
     color: red;
 }
 @media all  and (max-width:1440px){
-    .main_img{
-        width: 100%;
-        height: 100%;
+ .imgLine{
+     width: 350px;
+     height: 350px;
+ }
+    #img1{
+        width: 320px;
+        height: 320px;
     }
+
     .auto_type1{
         top: 15%;
         font-size: 2em;
@@ -425,7 +430,7 @@ body{
     .auto_type2{
         top: 22%;
         left: 5%;
-        font-size: 5em;
+        font-size: 3.5em;
         display: block;
     }
     .auto_type3{
@@ -452,7 +457,7 @@ body{
     .auto_type2{
         top: 22%;
         left: 5%;
-        font-size: 4em;
+        font-size: 2em;
         display: block;
     }
     .auto_type2_1{
@@ -531,7 +536,7 @@ body{
     .auto_type2{
         top: 22%;
         left: 15%;
-        font-size: 3em;
+        font-size: 1em;
         display: block;
     }
     .auto_type2_1{
