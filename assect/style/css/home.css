@@ -283,10 +283,10 @@ body{
 }
 @keyframes my-ani {
     from{
-        margin-top: 5%;
+        margin-top: -5%;
     }
     to{
-        margin-bottom: 0;
+        margin-bottom: 5%;
     }
 }
 /*.part2{
