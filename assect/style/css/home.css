@@ -259,8 +259,8 @@ body{
     !*rotate:-45deg;*!*/
 }
 .imgLine{
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
     background: linear-gradient(50deg, red 0%,blue 100%);
     /*background: linear-gradient(50deg, red 0%,white 100%);*/
     /*background: red;*/

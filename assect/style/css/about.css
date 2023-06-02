@@ -497,8 +497,8 @@ width: 400px;
         font-size: 3em;
     }
     .about_img{
-        left: 2.5%;
-        width: 300px;
+        left: -2%;
+        width: 400px;
         height: 500px;
     }
    .para{
@@ -519,16 +519,25 @@ width: 400px;
         border-radius: 15px;
     }
     .icon{
-        width: 300px;
+       /* border: 1px solid white;*/
+        width: 350px;
         height: 50px;
         bottom: 12%;
         left: 3%;
     }
-    .icon2{
-        top: 50%;
-        height: 40px;
+    .icon>a{
+
         width: 40px;
+        height: 40px;
+        position: relative;
+        left: 15%;
+        bottom: 40%;
     }
+    /*.icon2{
+        top: 50%;
+        height: 30px;
+        width: 30px;
+    }*/
 }
 @media all and (max-width: 1024px){
     /*    .about{
@@ -544,10 +553,15 @@ width: 400px;
         font-size: 1em;
         left: 130%;
     }
+    #img1{
+
+    }
     .about_img{
-        left: 2.5%;
-        width: 200px;
-        height: 400px;
+
+        width: 300px;
+        height: 350px;
+        position: absolute;
+        left: -2%;
     }
     .para{
         display: block;
@@ -574,18 +588,29 @@ width: 400px;
         left: 50%;
 
     }
+
     .icon{
+        /* border: 1px solid white;*/
         width: 300px;
-        height: 40px;
-        bottom: 26%;
-        left: 2.5%;
+        height: 50px;
+        position: absolute;
+        top: 60%;
+        left: 1%;
     }
-    .icon2{
+    .icon>a{
+
+        width: 40px;
+        height: 40px;
+        position: relative;
+        left: 15%;
+        bottom: 50%;
+    }
+  /*  .icon2{
         top: 50%;
         height: 35px;
         width: 35px;
 
-    }
+    }*/
 }
 @media all and (max-width: 768px){
     /*    .about{
