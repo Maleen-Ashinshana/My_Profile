@@ -6,13 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My_Profile</title>
-    <link rel="stylesheet" href="assect/style/css/home.css">
     <link rel="stylesheet" href="assect/boostrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assect/boostrap/css/bootstrap-grid.min.css">
+    <!--<link rel="stylesheet" href="assect/boostrap/css/bootstrap-grid.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link rel="stylesheet" href="assect/style/css/home.css">
+    <!--<link rel="stylesheet" href="CS/Home.css">-->
     <link rel="stylesheet" href="assect/style/css/preLoader.css">
     <link rel="stylesheet" href="assect/style/css/about.css">
     <link rel="stylesheet" href="assect/style/css/skill.css">
@@ -27,9 +27,8 @@
 </head>
 <body>
 
-<div class="grid">
+
     <nav class="nav" style="position: fixed;z-index: 10">
-        <div class="menu"></div>
         <a class="nav-link active" aria-current="page" href="#home"style="color: white"id="btn_home">Home</a>
         <a class="nav-link" href="#about"style="color: white" id="btn_about">About me</a>
         <a class="nav-link" href="#skill"style="color: white"id="btn_skill">Skills</a>
@@ -41,33 +40,27 @@
         <a class="nav-link "href="#contact"style="color: white"id="btn_contact">Contact</a>
     </nav>
 
-
     <home class="home" id="home">
+        <span class="auto_type1"  data-aos="zoom-in-down" data-aos-duration="3000">Hello,I am</span>
 
-        <div class="imgLine"data-aos="flip-right"data-aos-duration="2000">
-
-      <img src="assect/images/IMG-20230101-WA00256.png" id="img1">
-
+        <div class="container nameC">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="text"><span id="AS1">Maleen<span id="AS2">Ashinshana</span></span></div>
         </div>
 
-
-        <span class="auto_type1"  data-aos="zoom-in-down" data-aos-duration="3000">Hello,I am</span>
-        <h2 contenteditable="true" class="auto_type2">Maleen Ashinshana</h2>
-        <!--<span class="auto_type2">
-            Maleen <span class="auto_type2_1">Ashinshana</span>
-        </span>-->
         <span class="auto_type3"  data-aos="zoom-in-down" data-aos-duration="3000">
             And,I'am
-    </span>
+        </span>
         <span class="auto_type4">
 
-    </span>
+       </span>
     </home>
 
     <about class="about" id="about">
         <label class="a1"  data-aos="fade-right" data-aos-duration="3000">About<label class="a2" >Me</label></label>
         <img src="assect/images/IMG-20211130-WA2.png" class="about_img" data-aos="fade-right" data-aos-duration="2000">
-        <p class="para" id="about_text" data-aos="fade-down-left" data-aos-duration="1500">
+        <p class="para" id="about_text"> <!--data-aos="fade-down-left" data-aos-duration="1500"-->
             I am passionate about making software and web applications with cool UI/UX designs that improves the lives of
             those around me.
             Also I am interested in creating software and web applications for clients ranging from individuals to small
@@ -119,10 +112,10 @@
 
 
     <service class="service" id="service">
-        <div class="row_5">
+
             <span class="se1" data-aos="zoom-out-right" data-aos-duration="1000">What I Provide</span>
             <div class="canvas-wrapper" >
-                <div class="canvas"  data-aos="zoom-out-right" data-aos-duration="2000" id="c1">
+                <div class="canvas"  id="c1">
                     <div class="canvas_border" >
                         <svg>
                             <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:red/*rgb(253,137,60)*/;stop-opacity:1"></stop><stop offset="100%" style="stop-color:blue;stop-opacity:1"></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
@@ -140,7 +133,7 @@
                     </div>
                 </div>
 
-                <div class="canvas " data-aos="zoom-in-up" data-aos-duration="2000" id="c2">
+                <div class="canvas " id="c2">
                     <div class="canvas_border" >
                         <svg>
                             <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgb(253,137,68);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgb(153,75,23);stop-opacity:1"></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
@@ -157,7 +150,7 @@
 
                     </div>
                 </div>
-                <div class="canvas" data-aos="zoom-in-down" data-aos-duration="2000" id="c3">
+                <div class="canvas" id="c3">
                     <div class="canvas_border" >
                         <svg>
                             <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgb(253,137,68);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgb(153,75,23);stop-opacity:1"></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
@@ -174,7 +167,7 @@
 
                     </div>
                 </div>
-                <div class="canvas" data-aos="zoom-out-left" data-aos-duration="2000" id="c4">
+                <div class="canvas" id="c4">
                     <div class="canvas_border" >
                         <svg>
                             <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgb(253,137,68);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgb(153,75,23);stop-opacity:1"></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
@@ -192,7 +185,6 @@
                 </div>
 
             </div>
-        </div>
     </service>
 
     <projet class="project" id="project">
@@ -253,9 +245,6 @@
                 </div>
             </div>
         </div>
-
-
-
     </projet>
 
     <assingment class="assignment" id="assignment">
@@ -315,9 +304,6 @@
             <button id="next">></button>
             <button id="prev"><</button>
         </div>
-
-
-
     </assingment>
 
     <education class="education" id="education">
@@ -330,7 +316,7 @@
                 <div class="main_circle" id="main_circle1">
                     <div class="small_Circle" id="small_Circle1"></div>
                 </div>
-                <div class="text_area" id="text_area1" data-aos="fade-down-right" data-aos-duration="3000">
+                <div class="text_area" id="text_area1"> <!--data-aos="fade-down-right" data-aos-duration="3000"-->
                     <p class="education_text" id="education_text1">2022 Join IJSE</p>
                 </div>
             </div>
@@ -339,7 +325,7 @@
                 <div class="main_circle" id="main_circle2">
                     <div class="small_Circle" id="small_Circle2"></div>
                 </div>
-                <div class="text_area" id="text_area2" data-aos="fade-up-left" data-aos-duration="3000">
+                <div class="text_area" id="text_area2"> <!--data-aos="fade-up-left" data-aos-duration="3000"-->
                     <p class="education_text" id="education_text2">2021 Senior Prifect Board From G/Poddiwala N.C</p>
                 </div>
             </div>
@@ -348,7 +334,7 @@
                 <div class="main_circle" id="main_circle3">
                     <div class="small_Circle" id="small_Circle3"></div>
                 </div>
-                <div class="text_area" id="text_area3" data-aos="fade-down-right" data-aos-duration="3000">
+                <div class="text_area" id="text_area3" >data-aos="fade-down-right" data-aos-duration="3000"
                     <p class="education_text" id="education_text3">From January 2020 to june 2020, do an English course at VTA</p>
                 </div>
             </div>
@@ -357,7 +343,7 @@
                 <div class="main_circle" id="main_circle4" >
                     <div class="small_Circle" id="small_Circle4"></div>
                 </div>
-                <div class="text_area" id="text_area4" data-aos="fade-up-left" data-aos-duration="3000">
+                <div class="text_area" id="text_area4" ><!--data-aos="fade-up-left" data-aos-duration="3000"-->
                     <p class="education_text" id="education_text4">2019 O/L
                         (G/Poddiwala N.C)</p>
                 </div>
@@ -367,7 +353,7 @@
                 <div class="main_circle" id="main_circle5">
                     <div class="small_Circle" id="small_Circle5"></div>
                 </div>
-                <div class="text_area" id="text_area5"data-aos="fade-down-right" data-aos-duration="3000">
+                <div class="text_area" id="text_area5"><!--data-aos="fade-down-right" data-aos-duration="3000"-->
                     <p class="education_text" id="education_text5">2008-2022 G/Poddiwala N.C</p>
                 </div>
             </div>
@@ -382,8 +368,6 @@
         <img src="assect/imgs/WhatsApp Image 2023-05-06 at 19.13.15.jpg"class="gallery_img" id="gallery_img2" data-aos="flip-right" data-aos-duration="2000">
         <img src="assect/imgs/IMG-20211130-WA0016.jpg" class="gallery_img"id="gallery_img3" data-aos="flip-left" data-aos-duration="2000">
         <img src="assect/imgs/FB_IMG_1664211334090.jpg"class="gallery_img"id="gallery_img4" data-aos="flip-right" data-aos-duration="2000">
-
-
 
     </gllery>
 
@@ -410,18 +394,19 @@
 
     </contact>
 
-
-
-
-</div>
+<!--</div>-->
 
 
 <script src="assect/js/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"></script>
+<script src="assect/style/js/Name.js"></script>
+
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script src="assect/style/js/auto_type_in_home.js"></script>
 <script src="assect/style/js/slider.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assect/style/js/menuItem.js"></script>
+
 <script>
     AOS.init();
 </script>

@@ -1,200 +1,3 @@
-/*
-.row_3{
-        border: 1px solid blue;
-    height: 730px;
-    width: 1520px;
-!*    height: 99vh;
-!*    display: flex;*!
-    width: 99vw;
-    display: flex;
-    position: relative;
-    bottom: -190px;*!
-!*    position: absolute;
-    top: -100px;*!
-    background-color: #141414 ;
-    padding: 0;
-}
-label{
-    color:red;
-    font-size: 50px;
-    font-family:"Alegreya" ;
-    font-weight: bolder;
-    position: absolute;
-    left: 650px;
-    top: 10px;
-    background: red -webkit-gradient(linear,left top,right top,from(red),to(#ED2B2A),color-stop(0.5,#FFE0D3)) 0 0 no-repeat;
-    background-size: 150px;
-    color: rgb(255,255,255,0.1);
-    -webkit-background-clip: text;
-    animation: animated 3s infinite;
-}
-
-.a2{
-    color: white;
-    font-size: 50px;
-    font-family:"Alegreya" ;
-    font-weight: bolder;
-    position: absolute;
-    left: 160px;
-    top: 0px;
-
-}
-.about_img{
-    width: 450px;
-    height: 550px;
-    position: absolute;
-    left: 10px;
-    top: 90px;
-    border-radius: 50px;
-!*    display: flex;*!
-
-}
-
-.para{
-    color: white;
-    font-family: "Times New Roman";
-    font-size: 30px;
-    position: absolute;
-    left: 500px;
-    top: 200px;
-
-}
-.char{
-    font-size: 40px;
-    height: 40px;
-    animation: an 1s ease-out 1 both;
-    display: inline-block;
-}
-@keyframes an{
-    from{
-        opacity: 0;
-        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
-    }
-    to{
-        opacity: 1;
-        transform: perspective(500px) translate3d(0, 0, 0);
-    }
-}
-!*Download button*!
-.frame {
-    width: 90%;
-    margin: 40px auto;
-    text-align: center;
-}
-button {
-    margin: 20px;
-}
-.custom-btn {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-    7px 7px 20px 0px rgba(0,0,0,.1),
-    4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-    border-radius: 30px;
-}
-.btn-3 {
-    background: #D21312 100%;
-    background: linear-gradient(0deg,#070A52 0%, #D21312 100%);
-    width: 180px;
-    height: 50px;
-    line-height:45px;
-    text-align: center;
-    padding: 0;
-    border: none;
-    position: absolute;
-    bottom: 200px;
-    right: 500px;
-}
-.btn-3 span {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-    font-size: 20px;
-}
-.btn-3:before,
-.btn-3:after {
-    position: absolute;
-    content: "";
-    right: 0;
-    top: 0;
-    background:#D21312 100%;
-    transition: all 0.3s ease;
-    border-radius: 30px;
-}
-.btn-3:before {
-    height: 0%;
-    width: 2px;
-
-}
-.btn-3:after {
-    width: 0%;
-    height: 2px;
-}
-.btn-3:hover{
-    background: transparent;
-    box-shadow: none;
-}
-.btn-3:hover:before {
-    height: 100%;
-}
-.btn-3:hover:after {
-    width: 100%;
-}
-.btn-3 span:hover{
-    color: #D21312;
-}
-.btn-3 span:before,
-
-.btn-3 span:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    background:#D21312 100% ;
-    transition: all 0.3s ease;
-}
-.btn-3 span:before {
-    width: 2px;
-    height: 0%;
-}
-.btn-3 span:after {
-    width: 0%;
-    height: 2px;
-}
-.btn-3 span:hover:before {
-    height: 100%;
-}
-.btn-3 span:hover:after {
-    width: 100%;
-}
-.icon{
-    !*border: 1px solid red;*!
-    width: 350px;
-    height: 60px;
-    align-items: center;
-    position: absolute;
-    bottom: 20px;
-    right: 0;
-    left: 50px;
-    border-radius: 10px;
-}
-.icon2{
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
-}*/
 .about{
     /*border: 1px solid blue;*/
     /*    height: 730px;
@@ -203,8 +6,8 @@ button {
     top: 100%;
     height: 96vh;
     width:98.8vw;
-  /*  display: flex;
-    margin: auto;*/
+    /*  display: flex;
+      margin: auto;*/
     /* width: 99vw;*/
 
     background-color: #141414 ;
@@ -253,7 +56,7 @@ label{
     position: absolute;
     left: 500px;
     top: 200px;
-    display: block;
+   /* display: block;*/
 
 }
 .char{
@@ -488,11 +291,11 @@ width: 400px;
     border-radius: 50px;
 }*/
 @media all and (max-width: 1440px){
-/*    .about{
-        top: 98%;
-        width: 1440px;
+    /*    .about{
+            top: 98%;
+            width: 1440px;
 
-    }*/
+        }*/
     label{
         font-size: 3em;
     }
@@ -501,9 +304,9 @@ width: 400px;
         width: 400px;
         height: 500px;
     }
-   .para{
-       display: block;
-   }
+    .para{
+        display: block;
+    }
     .para{
         left: 26%;
         font-size: 2em;
@@ -519,7 +322,7 @@ width: 400px;
         border-radius: 15px;
     }
     .icon{
-       /* border: 1px solid white;*/
+        /* border: 1px solid white;*/
         width: 350px;
         height: 50px;
         bottom: 12%;
@@ -577,7 +380,7 @@ width: 400px;
     }
     .dcv{
         position: absolute;
-    /*    left: 10%;*/
+        /*    left: 10%;*/
         font-size:1.5em;
 
     }
@@ -605,12 +408,12 @@ width: 400px;
         left: 15%;
         bottom: 50%;
     }
-  /*  .icon2{
-        top: 50%;
-        height: 35px;
-        width: 35px;
+    /*  .icon2{
+          top: 50%;
+          height: 35px;
+          width: 35px;
 
-    }*/
+      }*/
 }
 @media all and (max-width: 768px){
     /*    .about{
@@ -668,14 +471,14 @@ width: 400px;
         bottom: 28%;
         left: 35%;
     }
-/*    .icon{
-        !* border: 1px solid white;*!
-        width: 300px;
-        height: 50px;
-        position: absolute;
-        top: 60%;
-        left: 1%;
-    }*/
+    /*    .icon{
+            !* border: 1px solid white;*!
+            width: 300px;
+            height: 50px;
+            position: absolute;
+            top: 60%;
+            left: 1%;
+        }*/
     .icon>a{
         width: 50px;
         height: 50px;
@@ -683,12 +486,12 @@ width: 400px;
         left: 10%;
         bottom: -5%;
     }
-/*    .icon2{
-        top: 50%;
-        height: 40px;
-        width: 40px;
+    /*    .icon2{
+            top: 50%;
+            height: 40px;
+            width: 40px;
 
-    }*/
+        }*/
 }
 @media all and (max-width: 425px){
     /*    .about{
@@ -712,9 +515,9 @@ width: 400px;
         width: 300px;
         height: 400px;
     }
-   /* .para{
-        display: block;
-    }*/
+    /* .para{
+         display: block;
+     }*/
     .para{
         top: 75%;
         left: 2%;
@@ -753,5 +556,3 @@ width: 400px;
 
     }
 }
-
-

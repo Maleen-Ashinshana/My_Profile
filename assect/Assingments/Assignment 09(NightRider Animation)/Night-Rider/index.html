@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        background-color: black;
+    }
+    .mainSection{
+    /*    border: 1px solid white;*/
+        width: 50%;
+        height: 20%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+    .smallDive{
+        width: 10%;
+        height: 10%;
+        border: 1px solid white;
+        display: inline-block;
+        position: relative;
+        left: 20%;
+        top: 25%;
+    }
+    .btn{
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        left: 50%;
+        bottom: 35%
+    }
+    #btnStart{
+        position: absolute;
+        left: 43%;
+    }
+
+</style>
+<body>
+<section class="mainSection">
+    <div class="smallDive" id="sm1"></div>
+    <div class="smallDive" id="sm2"></div>
+    <div class="smallDive" id="sm3"></div>
+    <div class="smallDive" id="sm4"></div>
+    <div class="smallDive" id="sm5"></div>
+    <div class="smallDive" id="sm6"></div>
+    <div class="smallDive" id="sm7"></div>
+</section>
+<button type="button"class="btn" id="btnStart">Start</button>
+<button type="button"class="btn"id="btnStop">Stop</button>
+<audio src="audio/Knight%20Rider%20Sms%20!%20Knight%20Rider%20!%20Theme.mp3" id="au"></audio>
+<script src="jquery-3.6.4.min.js"></script>
+<script>
+var light = $(".smallDive");
+var lightNumber = 0;
+var derection = 'RIGHT';
+var intervalId=null;
+
+    function updateLight() {
+        $('.smallDive').css({background:'white'});
+        light[lightNumber].style.background='red';
+        if (lightNumber>0){
+             light[lightNumber-1].style.background='blue'
+        }
+        if (lightNumber<6){
+            light[lightNumber+1].style.background='blue'
+        }
+        if (lightNumber===6){
+            derection='LEFT';
+        }
+        if (lightNumber===0){
+            derection='RIGHT';
+        }
+        if (derection==='RIGHT'){
+            lightNumber++;
+        }else {
+            lightNumber--;
+        }
+
+    }
+    /*setInterval(updateLight,100);*/
+
+    $('#btnStart').on('click',()=>{
+        clearInterval(intervalId);
+        $('#au')[0].play();
+        intervalId=setInterval(updateLight,100);
+    });
+    $('#btnStop').on('click',()=>{
+        $('#au')[0].pause();
+    clearInterval(intervalId);
+   });
+
+</script>
+</body>
+</html>
