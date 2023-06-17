@@ -207,6 +207,13 @@
     /*-webkit-border-bottom-left-radius:5%;*/
 
 }
+.homeIMG{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+}
 @media all  and (max-width:1440px){
 /* .imgLine{
      width: 350px;
