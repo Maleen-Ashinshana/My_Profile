@@ -1,235 +1,9 @@
-/*
-!*
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
 
-}
-!*html{
-    width: 99vw;
-    height: 99vh;
-    display: flex;
-}*!
-.nav{
-    width: 98.8vw;
-    background: black;
-    color: white;
-
-
-}
-.nav-link{
-    position: relative;
-    left: 650px;
-    margin: 0;
-}
-.nav-link{
-    display: inline-block;
-    padding-bottom: 0.25rem;
-    position: relative;
-}
-.nav-link::before{
-    content: "";
-    position: absolute;
-    right: 15px;
-    !*left: 15px;*!
-    bottom: 5px;
-    width: 0;
-    height: 5px;
-    background-color:red ;
-    background-image: linear-gradient(to right,#070A52,#f5380a);
-    border-radius: 10px;
-    transition: width 1.50s ease-out;
-}
-.nav-link:hover::before{
-    width: 70%;
-    right: auto;
-    left: 15px;
-
-
-}
-.nav-link:hover{
-    font-weight: bolder;
-}
-
-.row_2{
-!*    border: 1px solid red;*!
-   !* height: 750px;
-    width: 1510px;*!
-!*    height: 750px;
-    width: 1510px;*!
-    !*width: fit-content;*!
-    !*height: fit-content;*!
-!*    border: 1px solid red;*!
-!*    height: 750px;
-    width: 1525px;
-    display: flex;*!
-    border: 1px solid red;
-    height: 96vh;
-    width:98.8vw;
-    !*    display: flex;*!
-    position: absolute;
-    top: 36px;
-
-}
-.main_img{
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-!*    width: 1525px;
-    height: 750px;*!
-   !* width: 1520px;
-    height: 750px;*!
-    !*width: 1000px;*!
-    !*height: 1500px;*!
-}
-.auto_type1{
-    position: absolute;
-    left: 50px;
-    top: 150px;
-    color: white;
-    font-family: "Comic Sans MS";
-    font-size: 33px;
-    !*color: #181660;*!
-
-}
-.auto_type2{
-!*    color: white;*!
-    font-size: 90px;
-    font-family: "Ave";
-    position: absolute;
-    left: 100px;
-    top: 200px;
-    color: transparent;
-    -webkit-text-stroke: 1px black;
-    background: url("../../images/back2.png");
-    -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: back 20s linear infinite;
-}
-@keyframes back {
-    100%{
-        background-position: 2000px ;
-    }
-}
-.auto_type3{
-    position: absolute;
-    left: 650px;
-    top: 350px;
-    color: white;
-    font-family: "Comic Sans MS";
-    font-size: 33px;
-}
-.auto_type4{
-    position: absolute;
-    left: 0;
-}
-.auto_type4{
-    position: absolute;
-    left:400px;
-    top: 450px;
-    font-family: "Arial Black";
-    font-size: 50px;
-    color: red;
-}
-*!
-body{
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-.grid{
-    border: 5px solid darkred;
-    width: 99vw;
-    height: 1000vh;
-}
-.home{
-    border: 1px solid red;
-    height: 96vh;
-    width:98.8vw;
-    !*    display: flex;*!
-    position: absolute;
-    top: 36px;
-
-}
-.main_img{
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    !* display: flex;*!
-}
-.auto_type1{
-    position: absolute;
-    left: 50px;
-    top: 150px;
-    color: white;
-    font-family: "Comic Sans MS";
-    font-size: 33px;
-    !*color: #181660;*!
-
-}
-.auto_type2{
-    !*    color: white;*!
-    font-size: 90px;
-    font-family: "Ave";
-    position: absolute;
-    left: 100px;
-    top: 200px;
-    color: transparent;
-    -webkit-text-stroke: 1px black;
-    background: url("../../images/man-analysing-binary-code-virtual-screen.png");
-    -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: back 20s linear infinite;
-}
-@keyframes back {
-    100%{
-        background-position: 2000px ;
-    }
-}
-.auto_type3{
-    position: absolute;
-    left: 650px;
-    top: 350px;
-    color: white;
-    font-family: "Comic Sans MS";
-    font-size: 33px;
-}
-.auto_type4{
-    position: absolute;
-    left: 0;
-}
-.auto_type4{
-    position: absolute;
-    left:400px;
-    top: 450px;
-    font-family: "Arial Black";
-    font-size: 50px;
-    font-weight: 600;
-    color: red;
-}
-*/
-/*body{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-.grid{
-     border: 5px solid darkred;
-    width: 99vw;
-    height: 1200vh;
-    background-color: #141414;
-    display: flex;
-}*/
 .home{
     border: 1px solid black;
     height: 96vh;
     width:98.5vw;
-    /*display: flex;*/
+    display: flex;
     position: relative;
     top: 36px;
     /*margin: auto;*/
@@ -238,58 +12,60 @@ body{
 /*Name*/
 
 
-.home>.nameC{
-    border: 1px solid white;
-    width: 900px;
+.nameC {
+ /*   border: 1px solid white;*/
+    width: 100px;
     height: 400px;
     margin: 3% auto;
-    position: absolute;
-    left: 10%;
-    /*top: 10%;*/
-    bottom: -500%;
+    position: relative;
+    left: 1%;
+    border-top: 2px;
+   /* top: -100%;*/
 }
 
-.nameC>.line {
-/*    border: 1px solid blue;*/
+.nameC>.line{
+    border: /*1px*/ solid black;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     right: 0;
-    left: 0;
-    top: -40px;
+    left: -400px;
+    top: -120px;
+    bottom: 100%;
     background-color: white;
-    width: 1px;
+    width: 10px;
     height: 0px;
     background-image: -webkit-gradient(
             linear,
             50% 0%,
             50% 100%,
-            color-stop(00%, red),
+            color-stop(0%, red),
             color-stop(100%, blue)
     );
-    background-image: -webkit-linear-gradient(red, blue);
+    background-image: -webkit-linear-gradient(red,blue);
     background-size: 200% 200%;
     animation: animationName 5s ease infinite;
 }
 
 .nameC>.line-1 {
-    border-left: 20px solid black;
+    border-left: 20px solid #141414;
     -webkit-backface-visibility: hidden;
-    left: -10px;
+    left: -25px;
 }
 
 .nameC>.line-2 {
-    border-right: 22px solid black;
-    left: 10px;
+    border-right: 22px solid #141414;
+    -webkit-backface-visibility: hidden;
+    left: 14px;
 }
 
 .nameC>.text {
- /*   border: 1px solid yellow;*/
+    /*border: 1px solid yellow;*/
     color: white;
     text-transform: uppercase;
     font-family: 'Lato';
-    font-weight: 300;
-    font-size: 75px;
+    font-weight: 200;
+    font-size: 70px;
     text-align: left;
     width: 0px;
     margin-top: 150px;
@@ -297,12 +73,9 @@ body{
     overflow: hidden;
     transform: rotate(35deg);
     position: relative;
-    top: -20%;
-    left: -30%;
-
-    /*left: 50%;*/
+    top: -60%;
+    left: -20%;
     height: 100%;
-    /* width: 500%;*/
 }
 
 .nameC>.text>#AS1 {
@@ -326,7 +99,6 @@ body{
     animation: animationName 5s ease infinite;
 }
 .nameC>.text>#AS1>#AS2 {
-    /*  transform: rotate(-35deg);*/
     position: absolute;
     top: 85px;
     right: 0px;
@@ -350,10 +122,6 @@ body{
     50%{background-position:100% 13%}
     100%{background-position:0% 88%}
 }
-
-
-/**/
-
 @keyframes my-ani {
     from{
         margin-top: -5%;
@@ -370,11 +138,7 @@ body{
     color: white;
     font-family: "Fira Code";
     font-size: 33px;
-    /*color: #181660;*/
-
 }
-
-
 @keyframes animate {
     0%,
     18%,
@@ -411,7 +175,7 @@ body{
 .auto_type3{
     position: absolute;
     left: 650px;
-    top: 350px;
+    top: 380px;
     color: white;
     font-family: "Fira Code";
     font-size: 33px;
@@ -423,11 +187,25 @@ body{
 .auto_type4{
     position: absolute;
     left:400px;
-    top: 450px;
+    top: 500px;
     font-family: "Arial Black";
     font-size: 50px;
     font-weight: 600;
     color: red;
+}
+.box{
+    height: 750px;
+    width: 700px;
+    background-image: -webkit-linear-gradient(black,#141414);
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    border-radius:500px 10px 10px 5000px ;
+  /*  -webkit-border-top-left-radius: 20%;
+    border-top-left-radius: 10% 10;*/
+  /*  border-bottom-left-radius: 50%;*/
+    /*-webkit-border-bottom-left-radius:5%;*/
+
 }
 @media all  and (max-width:1440px){
 /* .imgLine{
@@ -492,7 +270,7 @@ body{
         font-size: 3em;
         display: block;
     }
-    .auto_type2_1{
+/*    .auto_type2_1{
         position: absolute;
         top: 70%;
         left:70%;
@@ -502,7 +280,7 @@ body{
         -webkit-background-clip: text;
         background-position: 0 0;
         animation: back 20s linear infinite;
-    }
+    }*/
     .auto_type3{
         top: 50%;
         left: 40%;
