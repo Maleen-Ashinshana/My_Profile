@@ -125,14 +125,36 @@
     font-weight: 500;
     font-size: 1.2em;
 }
-.as-link{
+.page{
+   /* background-color: white;*/
+   /* background-image: -webkit-linear-gradient(black,red);*/
     position: absolute;
-    bottom: 50px;
-    left: 30%;
-    background-color: white;
-    /*border-radius: 10px;*/
+    left: 40%;
+    height: 0;
+    /*top: 0;*/
+    bottom: 10%;
+    margin: auto;
     color: black;
 }
+.code{
+    position: absolute;
+    left: 40%;
+    bottom: 15%;
+    color: black;
+}
+/*.as-link{
+    position: absolute;
+    bottom: 25px;
+    left: 60%;
+    !*background-color: white;*!
+    !*border-radius: 10px;*!
+    color: black;
+    background-image: -webkit-linear-gradient(blue,red);
+}
+.page{
+    background-color: white;
+    color: black;
+}*/
 @media all  and (max-width: 1440px){
     .slider{
         width: 1000px;
