@@ -35,13 +35,13 @@
     right: 200px;
 }*/
 .gallery{
-    /*        border: 1px solid red;*/
+            border: 1px solid blue;
     display: flex;
     height: 1350px;
     width: 1520px;
     position: absolute;
 
-    bottom: -850%;
+    bottom: -878%;
     background-color: #141414;
 }
 
