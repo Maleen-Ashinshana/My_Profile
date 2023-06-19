@@ -125,23 +125,65 @@
     font-weight: 500;
     font-size: 1.2em;
 }
-.page{
+/*.as{
+    position: absolute;
+    left: 35%;
+}*/
+#view\ page3\.1{
    /* background-color: white;*/
    /* background-image: -webkit-linear-gradient(black,red);*/
     position: absolute;
-    left: 40%;
+    left: 35%;
     height: 0;
     /*top: 0;*/
-    bottom: 10%;
+    bottom: 30%;
     margin: auto;
     color: black;
 }
 .code{
     position: absolute;
-    left: 40%;
+    left: 30%;
     bottom: 15%;
     color: black;
 }
+#view\ page3\.2{
+   position: absolute;
+    left: 35%;
+    bottom: 15%;
+    color: black;
+}
+#view\ page3\.3{
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+    color: black;
+}
+.asu{
+    list-style-type: none;
+    position: absolute;
+    left: 25%;
+    bottom: 10%;
+}
+.asu>li>a{
+    position: relative;
+    display: inline-block;
+    /*text-decoration: none;*/
+    /*list-style-type: none;*/
+    /*position: absolute;*/
+    left: 20%;
+    bottom: -10%;
+    color: black;
+}
+
+/*.as4{
+    position: absolute;
+    display: inline-block;
+    color: black;
+    !*top: 0;*!
+    bottom: 5%;
+
+
+}*/
 /*.as-link{
     position: absolute;
     bottom: 25px;
