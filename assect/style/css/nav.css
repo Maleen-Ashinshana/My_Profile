@@ -21,6 +21,7 @@ body{
     position: relative;
     left: 650px;
     margin: 0;
+    font-size: 1.1em;
 }
 .nav-link{
     display: inline-block;
@@ -53,13 +54,20 @@ body{
 @media all  and (max-width:1440px){
     .nav{
         /*background: red;*/
+        width: 100vw;
         color: white;
-        margin: auto;
+
     }
     .nav-link{
-        left: 43%;
-        font-size: 1em;
+        left: 40%;
+        font-size: 1.1em;
     }
+    /*.nameC{
+        left: -50%;
+    }*/
+    /*#AS1{
+        left: 10%;
+    }*/
 }
 @media all  and (max-width:1024px){
     .nav{
