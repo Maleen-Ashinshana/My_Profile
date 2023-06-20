@@ -236,12 +236,13 @@ label{
 
 }
 .about_img{
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
     position: absolute;
-    left: -5%;
+    left: 0%;
     top: 20px;
-    border-radius: 50px;
+    /*background-color: black;*/
+    border-radius: 100%;
     /*display: flex;*/
 
 }
@@ -251,12 +252,13 @@ label{
     font-family: "Segoe UI Symbol";
     font-size: 30px;
     position: absolute;
-    left: 500px;
+    left: 530px;
     top: 200px;
-    display: block;
+    /*display: block;*/
 
 }
-.char{
+/*.char{
+    border: 2px solid red;
     font-size: 40px;
     height: 40px;
     animation: an 1s ease-out 1 both;
@@ -271,7 +273,7 @@ label{
         opacity: 1;
         transform: perspective(500px) translate3d(0, 0, 0);
     }
-}
+}*/
 /*Download button*/
 .frame {
     width: 90%;
