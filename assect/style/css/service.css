@@ -380,7 +380,13 @@ font-size: 24px;
         opacity: 1;
     }
 }
-@media all  and (max-width: 1440px){
+@media all and (max-width: 1440px){
+    .canvas_copy {
+        left: 10%;
+    }
+
+}
+/*@media all  and (max-width: 1440px){
 
     .se1{
         font-size: 2.5em;
@@ -399,7 +405,7 @@ font-size: 24px;
     .canvas_copy {
         left: 10%;
     }
-}
+}*/
 @media all and (max-width: 1024px) {
 
     .se1{

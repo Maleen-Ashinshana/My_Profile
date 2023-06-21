@@ -449,7 +449,12 @@
         transform: translateY(-100%);
     }
 }
-@media all  and (max-width: 1440px){
+@media all and (max-width: 1440px){
+    #card_4{
+        left: 30%;
+    }
+}
+/*@media all  and (max-width: 1440px){
     .p1{
         font-size: 3em;
        }
@@ -474,7 +479,7 @@
         left: 50%;
         bottom: -100%;
     }
-}
+}*/
 @media all and (max-width: 1024px) {
     .p1{
         font-size: 2.5em;

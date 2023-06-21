@@ -71,6 +71,9 @@
     right: 200px;
 }
 @media all and (max-width: 1440px){
+
+}
+/*@media all and (max-width: 1440px){
      .gallery_img{
           height: 300px;
           width: 300px;
@@ -89,7 +92,7 @@
         top: 700px;
         left: 200px;
     }
-}
+}*/
 @media all and (max-width: 1024px) {
     .gallery{
         height: 1200px;

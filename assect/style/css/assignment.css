@@ -167,7 +167,22 @@
     color: black;
 }
 
-@media all  and (max-width: 1440px){
+@media all and (max-width: 1440px){
+    /*.slider{
+        border: 1px solid red;
+    }*/
+    .items{
+        left: 39%;
+    }
+    #next{
+        right: 10%;
+        bottom: 70%;
+    }
+    #prev{
+        left: 2%;
+    }
+}
+/*@media all  and (max-width: 1440px){
     .slider{
         width: 1000px;
         left: -2%;
@@ -182,7 +197,7 @@
         width: 30%;
         height:80% ;
     }
-}
+}*/
 @media all and (max-width: 1024px){
     .slider{
         /*border: 1px solid red;*/

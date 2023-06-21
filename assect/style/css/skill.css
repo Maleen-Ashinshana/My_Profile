@@ -261,8 +261,8 @@ padding: 0;
         height: 500px;
     }*/
     #card1,#card2,#card3,#card4,#card5,#card6{
-        width: 350px;
-        height: 350px;
+        width: 270px;
+        height: 270px;
     }
 }
 /*@media all and  (max-width: 1440px){

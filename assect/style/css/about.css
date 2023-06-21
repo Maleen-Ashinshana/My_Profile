@@ -416,12 +416,12 @@ button {
 }
 @media all  and (max-width: 1440px){
     .icon{
-        top: -43%;
+        top: -38%;
         left: 78%;
     }
     .custom-btn{
-        height: 8%;
-        width: 12%;
+        height: 7%;
+        width: 11%;
         bottom: 35%;
         right: 30%;
         border-radius: 12px;

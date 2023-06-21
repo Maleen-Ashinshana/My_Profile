@@ -303,7 +303,37 @@
     bottom: 50px;
     /*    left: 60px;*/
 }
-@media all  and (max-width: 1440px){
+@media all and (max-width: 1440px){
+   .liner{
+       left: -2%;
+   }
+    .text_area{
+        width: 400px;
+        height: 200px;
+        right: 100%;
+    }
+    .education_text{
+        font-size: 1.8em;
+    }
+    .length_div{
+        width: 270px;
+    }
+    #text_area2,#text_area4{
+        left: 100%;
+    }
+    #education_text2{
+        left: 10%;
+        bottom: 20%;
+    }
+    #education_text3{
+        left: 10%;
+    }
+    #education_text4{
+        left: 8%;
+        bottom: 30%;
+    }
+}
+/*@media all  and (max-width: 1440px){
     .pe1{
         font-size: 2.5em;
         top: 10%;
@@ -348,7 +378,7 @@
         left: 240px;
         top: -70px;
     }
-}
+}*/
 @media all and (max-width: 1024px) {
     .pe1{
         font-size: 2.5em;
