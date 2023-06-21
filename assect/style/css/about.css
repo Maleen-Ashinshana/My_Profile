@@ -247,7 +247,7 @@ label{
 
 }
 
-.para{
+.aboutText{
     color: white;
     font-family: "Segoe UI Symbol";
     font-size: 30px;
@@ -427,6 +427,49 @@ button {
         border-radius: 12px;
     }
 }
+@media all  and (max-width: 1024px){
+    .a1{
+        left: 40%;
+        font-size: 3em;
+    }
+    .about_img{
+        width: 350px;
+        height: 350px;
+        left: 35%;
+    }
+    .aboutText{
+        left: 2%;
+        top: 52%;
+        font-size: 1.5em;
+    }
+    .icon{
+       /* border: 1px solid red;*/
+        top: -48%;
+        left: 72%;
+        width: 40%;
+
+    }
+    .icon>a{
+        /*border: 1px solid purple;*/
+        width: 40px;
+        height: 40px;
+    }
+    .icon>a>.bx{
+        /*border: 1px solid purple;*/
+      /*  align-items: center;
+        justify-content: center;*/
+        width: 40px;
+        height: 40px;
+
+    }
+    .custom-btn{
+        height: 8%;
+        width: 14%;
+        top: 68%;
+        right: 38%;
+        border-radius: 8px;
+    }
+}
 /*.icon a{
     display: inline;
     width: 50px;
@@ -554,12 +597,13 @@ width: 400px;
         width: 30px;
     }*!
 }*/
+/*
 @media all and (max-width: 1024px){
-    /*    .about{
+    !*    .about{
             top: 98%;
             width: 1440px;
 
-        }*/
+        }*!
     label{
         font-size: 2.5em;
         left: 40%;
@@ -592,7 +636,7 @@ width: 400px;
     }
     .dcv{
         position: absolute;
-    /*    left: 10%;*/
+    !*    left: 10%;*!
         font-size:1.5em;
 
     }
@@ -605,7 +649,7 @@ width: 400px;
     }
 
     .icon{
-        /* border: 1px solid white;*/
+        !* border: 1px solid white;*!
         width: 300px;
         height: 50px;
         position: absolute;
@@ -620,19 +664,19 @@ width: 400px;
         left: 15%;
         bottom: 50%;
     }
-  /*  .icon2{
+  !*  .icon2{
         top: 50%;
         height: 35px;
         width: 35px;
 
-    }*/
+    }*!
 }
 @media all and (max-width: 768px){
-    /*    .about{
+    !*    .about{
             top: 98%;
             width: 1440px;
 
-        }*/
+        }*!
     .about{
         height: 99.9vh;
     }
@@ -664,7 +708,7 @@ width: 400px;
     }
     .dcv{
         position: absolute;
-        /*    left: 10%;*/
+        !*    left: 10%;*!
         font-size:1.5em;
 
     }
@@ -677,20 +721,20 @@ width: 400px;
 
     }
     .icon{
-        /*border: 1px solid white;*/
+        !*border: 1px solid white;*!
         width: 400px;
         height: 50px;
         bottom: 28%;
         left: 35%;
     }
-/*    .icon{
+!*    .icon{
         !* border: 1px solid white;*!
         width: 300px;
         height: 50px;
         position: absolute;
         top: 60%;
         left: 1%;
-    }*/
+    }*!
     .icon>a{
         width: 50px;
         height: 50px;
@@ -698,19 +742,19 @@ width: 400px;
         left: 10%;
         bottom: -5%;
     }
-/*    .icon2{
+!*    .icon2{
         top: 50%;
         height: 40px;
         width: 40px;
 
-    }*/
+    }*!
 }
 @media all and (max-width: 425px){
-    /*    .about{
+    !*    .about{
             top: 98%;
             width: 1440px;
 
-        }*/
+        }*!
     .about{
         height: 99.9vh;
     }
@@ -719,7 +763,7 @@ width: 400px;
         left: 30%;
     }
     .a2{
-        /*font-size: 1em;*/
+        !*font-size: 1em;*!
         left: 120%;
     }
     .about_img{
@@ -727,9 +771,9 @@ width: 400px;
         width: 300px;
         height: 400px;
     }
-   /* .para{
+   !* .para{
         display: block;
-    }*/
+    }*!
     .para{
         top: 75%;
         left: 2%;
@@ -742,7 +786,7 @@ width: 400px;
     }
     .dcv{
         position: absolute;
-        /*    left: 10%;*/
+        !*    left: 10%;*!
         font-size:0.5em;
 
     }
@@ -755,7 +799,7 @@ width: 400px;
 
     }
     .icon{
-        /*border: 1px solid red;*/
+        !*border: 1px solid red;*!
         width: 300px;
         height: 40px;
         bottom: 28%;
@@ -768,5 +812,6 @@ width: 400px;
 
     }
 }
+*/
 
 

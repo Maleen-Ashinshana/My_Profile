@@ -153,12 +153,12 @@
 */
 .education{
 
-     /*   border: 1px solid red;*/
+       /* border: 1px solid red;*/
     height: 1300px;
     width: 1520px;
     display: flex;
     position: absolute;
-    bottom: -700%;
+    bottom: -750%;
     background-color: #141414;
     padding: 0;
 }
@@ -333,6 +333,40 @@
         bottom: 30%;
     }
 }
+@media all and (max-width: 1024px){
+    .liner{
+        width: 0.8%;
+        left: -16%;
+    }
+    .main_circle{
+        width: 16px;
+        height: 16px;
+    }
+    .small_Circle{
+        width: 8px;
+        height: 8px;
+    }
+    .length_div{
+        height: 10px;
+        width: 200px;
+    }
+    .text_area{
+        width: 300px;
+        height: 150px;
+        bottom: -600%;
+    }
+    .education_text{
+        font-size: 1.5em;
+    }
+    #education_text1{
+        right: 20%;
+        top: 20%;
+     }
+    #education_text5{
+        left: 5%;
+        top: 30%;
+    }
+}
 /*@media all  and (max-width: 1440px){
     .pe1{
         font-size: 2.5em;
@@ -379,6 +413,7 @@
         top: -70px;
     }
 }*/
+/*
 @media all and (max-width: 1024px) {
     .pe1{
         font-size: 2.5em;
@@ -463,7 +498,7 @@
         top: 18%;
     }
     .liner{
-/*        top: 10%;*/
+!*        top: 10%;*!
         width: 0px;
         left: -45%;
 
@@ -535,7 +570,7 @@
 }
 @media all and (max-width: 425px) {
     .education{
-/*        border: 1px solid red;*/
+!*        border: 1px solid red;*!
         top: 735%;
         height: 800px;
         width: 400px;
@@ -621,3 +656,4 @@
         bottom: 35%;
     }
 }
+*/
